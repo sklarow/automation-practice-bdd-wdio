@@ -8,9 +8,7 @@ Project to run WebdriverIO tests with [Cucumber](https://cucumber.io/) and bring
 - Node version 8 or higher
 - A preconfigured Selenium Grid, preinstalled browser driver or cloud provider account
 
-Although this project works fine with NPM we recommend to use Yarn (>= 1.0.0) instead,  due to its speed & solid dependency locking mechanism. To keep things simple we use yarn in this guide, but feel free to replace this with NPM if that is what you are using.
-
-Also this project doesn't cover setting up a proper test environment. You need to download specific browser driver yourself and run the prior starting tests or use a cloud provider like [SauceLabs](https://saucelabs.com/).
+Although this project works fine with NPM I recommend to use Yarn (>= 1.0.0) instead,  due to its speed & solid dependency locking mechanism. To keep things simple we use yarn in this guide, but feel free to replace this with NPM if that is what you are using.
 
 ## Quick start
 
@@ -35,7 +33,7 @@ Choose one of the following options:
 $ yarn run wdio
 ```
 
-## Features (scenarios) tested:
+# Features (scenarios) tested:
 
 - Cart (Add item to the cart, Edit item quantity from the cart, Remove item from the cart)
 - SignIn (SignIn with invalid email, SignIn with valid email and empty password, SignIn with valid email and wrong password, SignIn with valid credential  )
@@ -49,5 +47,5 @@ $ npx wdio wdio.conf.js --spec ./src/features/SignIn.feature
 ```
 
 # For more information about the project:
-https://webdriver.io/docs/gettingstarted.html
-https://github.com/webdriverio/cucumber-boilerplate
+- https://webdriver.io/docs/gettingstarted.html
+- https://github.com/webdriverio/cucumber-boilerplate
