@@ -1,6 +1,6 @@
 Feature: Automation Practice SignIn
     As   an Automation Practice customer
-    I    want to not I cannot SignIn with wrong credentials
+    I    want to not be able to SignIn with wrong credentials
     And  I can signIn with correct credentials
 
     Background:
